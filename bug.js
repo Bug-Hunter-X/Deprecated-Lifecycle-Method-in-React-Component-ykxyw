@@ -1,0 +1,1 @@
+This React component uses the wrong lifecycle method to update the state. It's trying to use `componentWillMount` which is deprecated and unreliable, instead of `useEffect` hook.
